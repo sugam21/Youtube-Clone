@@ -1,0 +1,128 @@
+header.header {
+  height: 50px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+div.left-section {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+img.hamburger-menu {
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 19px;
+  vertical-align: middle;
+}
+
+img.youtube-logo {
+  height: 34px;
+  vertical-align: middle;
+}
+
+div.middle-section {
+  width: 732px;
+  margin: 0px 40px;
+  display: flex;
+  align-items: center;
+}
+
+input.search-box {
+  height: 35px;
+  width: 0;
+  max-width: 500px;
+  min-width: 50px;
+  border: 1px solid #ccc;
+  border-right: none;
+  padding-left: 15px;
+  border-radius: 20px 0px 0px 20px;
+  flex: 1;
+  font-size: 15px;
+  outline: none;
+  box-shadow: inset 1px 1px 3px rgb(0, 0, 0, 0.05);
+}
+input.search-box::placeholder {
+  font-family: "Roboto", Arial;
+  font-size: 16px;
+}
+button {
+  margin: 0px;
+  border: none;
+}
+img {
+  margin: 0px;
+  border: none;
+}
+img.search-icon {
+  width: 22px;
+  margin-top: 4px;
+}
+button.search-btn {
+  border-radius: 0px 20px 20px 0px;
+  height: 39px;
+  padding: 0px 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+button.search-btn:hover {
+  box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.08);
+  background-color: #f2f2f2;
+}
+
+img.mic-icon {
+  width: 20px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 4px;
+}
+button.mic-btn {
+  height: 39px;
+  width: 39px;
+  margin-left: 20px;
+  border: none;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
+
+button.mic-btn:hover {
+  background-color: #f2f2f2;
+}
+
+div.right-section {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-shrink: 0;
+}
+img.video-icon {
+  width: 21px;
+}
+
+button.right-section-button {
+  background-color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+button.video-btn:hover {
+  background-color: #f2f2f2;
+}
+img.bell-icon {
+  width: 21px;
+}
+
+button.bell-btn:hover {
+  background-color: #f2f2f2;
+}
+button.profile-btn {
+  background: none;
+}
+img.channel-icon {
+  height: 34px;
+  object-fit: center;
+  border: none;
+  border-radius: 50%;
+}

@@ -4,24 +4,55 @@
     <title>Youtube Clone</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/header.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,500;0,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
-    <header class="title-bar">
-      <input class="search-box" type="text" placeholder="Search" />
+    <header class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="icons/icons8-hamburger-menu.svg"
+          alt=""
+        />
+        <img class="youtube-logo" src="icons/icons8-youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-box" type="text" placeholder="Search" />
+        <button class="search-btn" type="">
+          <img class="search-icon" src="icons/icons8-search.svg" alt="" />
+        </button>
+        <button class="mic-btn" type="">
+          <img class="mic-icon" src="icons/icons8-mic-24.png" alt="" />
+        </button>
+      </div>
+      <div class="right-section">
+        <button type="" class="right-section-button video-btn">
+          <img
+            src="icons/icons8-videocamera-64.png"
+            class="video-icon"
+            alt=""
+          />
+        </button>
+        <button type="" class="right-section-button bell-btn">
+          <img class="bell-icon" src="icons/icons8-bell-24.png" alt="" />
+        </button>
+        <button type="" class="right-section-button profile-btn">
+          <img
+            class="channel-icon"
+            src="channel-pictures/my-channel-picture.jpg"
+            alt=""
+          />
+        </button>
+      </div>
     </header>
-    <img class="thumbnail" src="assets/thumbnail-1.jpg" />
-    <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">Marques Brownlee</p>
-    <p class="video-stat">3.4M views &#183; 6 months ago</p>
   </body>
 </html>
