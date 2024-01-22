@@ -1,0 +1,18 @@
+button.filter-bar-btn {
+  background-color: #f9f9f9;
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.2s ease-in;
+  margin: 5px;
+}
+
+button.filter-bar-btn:focus {
+  background-color: black;
+  color: white;
+}
+button.filter-bar-btn:not(:focus):hover {
+  background-color: #ccc;
+}
